@@ -69,3 +69,43 @@ footer a {
 footer a:hover {
     color: #d4d9df;
 }
+
+/* Projects Section Styling */
+#projects .card-title a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#projects .card-title a:hover {
+    color: #0056b3;
+}
+
+/* Skills Section Styling */
+#skills ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#skills h5 {
+    margin-bottom: 15px;
+}
+
+/* Additional Styling for Better Visuals */
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 10px;
+    }
+
+    .timeline li {
+        padding-left: 40px;
+    }
+
+    .timeline li::before {
+        left: 2px;
+    }
+}
